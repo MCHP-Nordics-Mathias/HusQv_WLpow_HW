@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "myLibs")(type "Legacy")(uri "${KIMYOWNLIBS_DIR}/mySymbols")(options "")(descr ""))
+)

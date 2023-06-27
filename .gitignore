@@ -1,0 +1,34 @@
+### Ignore list for KiCAD Projects
+
+!.gitkeep
+### Documents and Shortcuts
+*.pdf
+*Shortcut
+
+### Fies that can be reproduced from sch & pcb
+*.gbr*
+*.drl
+*.zip
+*.7z
+
+### Temporary files
+*.000
+*.bak
+*.sch-bak
+*.pcb-bak
+*.bck
+*~
+kiCAD_Clig_2xNFET_breakoutboard-backups\
+
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+### Netlist files (exported from Eeschema)
+*.net
+
+### Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
