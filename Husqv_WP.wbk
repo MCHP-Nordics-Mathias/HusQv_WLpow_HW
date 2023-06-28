@@ -1,5 +1,5 @@
 version 2
 1
 9
-.tran 200m 1 0{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+.tran 2ms 500ms{return}{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
 0
