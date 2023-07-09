@@ -1,7 +1,7 @@
 version 2
-2
+3
 9
-.tran 0.1u 0.3m 0{return}*.ac dec 1000 10k 1Meg{return}{return}.options gmin=1e-9{return}.options abstol=1e-9{return}.options reltol=0.004{return}.options cshunt=1e-15{return}.param myfreq=190k{return}.param myLs12=100u{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+.tran 0.1u 0.3m 0{return}*.ac dec 1000 10k 1Meg{return}.options gmin=1e-9{return}.options abstol=1e-9{return}.options reltol=0.004{return}.options cshunt=1e-15{return}.param myfreq=190k{return}.param myLs12=100u{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
 3
 1
 V(/D1Net)
@@ -13,7 +13,7 @@ V(/LoadNet)
 V(Net-_C2-Pad2_)
  
 1
-.ac dec 1000 10k 1Meg{return}*.tran 0.1u 0.3m 0{return}.options gmin=1e-9{return}.options abstol=1e-9{return}.options reltol=0.004{return}.options cshunt=1e-15{return}.param myfreq=185k{return}.param myLs12=100u{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+.ac dec 1000 10k 1Meg{return}*.tran 0.1u 0.3m 0{return}.options gmin=1e-9{return}.options abstol=1e-9{return}.options reltol=0.004{return}.options cshunt=1e-15{return}.param myfreq=185k{return}.param myLs12=100u{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
 4
 10
 I(Rload1)
@@ -27,3 +27,6 @@ V(/LoadNet)
 9
 V(Net-_C2-Pad2_)
  
+1
+.ac dec 1000 10k 1Meg{return}*.tran 0.1u 0.3m 0{return}.options gmin=1e-9{return}.options abstol=1e-9{return}.options reltol=0.004{return}.options cshunt=1e-15{return}.param myfreq=185k{return}.param myLs12=100u{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+0
