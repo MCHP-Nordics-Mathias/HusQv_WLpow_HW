@@ -1862,7 +1862,7 @@
   (symbol (lib_id "Diode:MBR340") (at 124.587 85.09 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56b71b0e-2ae7-4981-a884-2f2742050267)
-    (property "Reference" "D3" (at 122.555 84.3835 90)
+    (property "Reference" "D1" (at 122.555 84.3835 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "mbr340_ON" (at 122.555 86.4315 90)
@@ -1885,7 +1885,7 @@
     (instances
       (project "Husqv_WP"
         (path "/78a5d0a0-367b-45cd-a8c4-6f1e567c7d52"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1894,7 +1894,7 @@
   (symbol (lib_id "Diode:MBR340") (at 110.617 140.335 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5978619a-bf46-4301-b6df-5e5a41c2f7ed)
-    (property "Reference" "D5" (at 112.649 141.0415 90)
+    (property "Reference" "D2" (at 112.649 141.0415 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "mbr340_ON" (at 112.649 138.9935 90)
@@ -1917,7 +1917,7 @@
     (instances
       (project "Husqv_WP"
         (path "/78a5d0a0-367b-45cd-a8c4-6f1e567c7d52"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2307,7 +2307,7 @@
   (symbol (lib_id "Device:D_Bridge_+-AA") (at 250.19 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afe16036-0359-40b3-9df5-556f083adbc0)
-    (property "Reference" "D1" (at 263.5179 80.5957 0)
+    (property "Reference" "Drect1" (at 263.5179 80.5957 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Bridge_+-AA" (at 263.5179 82.6437 0)
@@ -2338,7 +2338,7 @@
     (instances
       (project "Husqv_WP"
         (path "/78a5d0a0-367b-45cd-a8c4-6f1e567c7d52"
-          (reference "D1") (unit 1)
+          (reference "Drect1") (unit 1)
         )
       )
     )
